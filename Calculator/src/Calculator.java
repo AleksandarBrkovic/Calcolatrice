@@ -47,7 +47,7 @@ public class Calculator {
 			
 		
 		}
-		System.out.println(number1.doubleValue() + " " + operator + number2.doubleValue() + " = " + result.doubleValue() );
+		System.out.println(number1.doubleValue() + " " + String.valueOf(operator) + number2.doubleValue() + " = " + result.doubleValue() );
 		
 	}
 	
